@@ -1,3 +1,5 @@
+package zoo;
+
 import animals.Animal;
 import animals.Dog;
 
