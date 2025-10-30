@@ -1,14 +1,10 @@
 package zoo;
 
-import animals.Animal;
-import animals.Dog;
-import animals.Fox;
-import animals.Sheep;
-import animals.Shark;
+import animals.*;
 
 public class Zoo {
     public static void main(String[] args) {
-        int numberOfAnimals = 5;
+        int numberOfAnimals = 6;
         Animal[] allAnimals = new Animal[numberOfAnimals];
 
         allAnimals[0] = new Dog("Rex");
@@ -16,6 +12,7 @@ public class Zoo {
         allAnimals[2] = new Fox("Peter");
         allAnimals[3] = new Sheep("Dolly");
         allAnimals[4] = new Shark("Horst");
+        allAnimals[5] = new Bird("Ralf");
 
          for (Animal currAnimal : allAnimals) {
             System.out.println("\nA new animal has arrived:");
