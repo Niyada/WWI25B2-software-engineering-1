@@ -8,10 +8,11 @@ import animals.Shark;
 import animals.Lion;
 import animals.Cat;
 import animals.Bird;
+import animals.Duck;
 
 public class Zoo {
     public static void main(String[] args) {
-        int numberOfAnimals = 8;
+        int numberOfAnimals = 9;
         Animal[] allAnimals = new Animal[numberOfAnimals];
 
         allAnimals[0] = new Dog("Rex");
@@ -19,9 +20,10 @@ public class Zoo {
         allAnimals[2] = new Fox("Peter");
         allAnimals[3] = new Sheep("Dolly");
         allAnimals[4] = new Shark("Horst");
-        allAnimals[5] = new Bird("Horst");
-        allAnimals[6] = new Cat("Horst");
+        allAnimals[5] = new Bird("Ralf");
+        allAnimals[6] = new Cat("Klaus");
         allAnimals[7] = new Lion("Simba");
+        allAnimals[8] = new Duck("Daisy");
 
          for (Animal currAnimal : allAnimals) {
             System.out.println("\nA new animal has arrived:");
