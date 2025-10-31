@@ -8,6 +8,7 @@ import animals.Shark;
 import animals.Lion;
 import animals.Cat;
 import animals.Bird;
+import animals.Duck;
 
 public class Zoo {
     public static void main(String[] args) {
